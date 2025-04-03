@@ -1,0 +1,12 @@
+body {
+    display: block;
+    text-align: center;
+}
+.img img {
+    width: 300px;
+    height: auto;
+}
+
+.content{
+    text-decoration: underline navy;
+}
