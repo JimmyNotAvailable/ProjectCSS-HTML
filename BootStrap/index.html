@@ -1,0 +1,284 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+</head>
+
+<body>
+    <!-- Đây là Navbar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Trang Chủ</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Điện Thoại
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Sam Sung</a></li>
+                            <li><a class="dropdown-item" href="#">Apple</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Xem Thêm</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Laptop
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Asus</a></li>
+                            <li><a class="dropdown-item" href="#">Dell</a></li>
+                            <li><a class="dropdown-item" href="#">Lenovo</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Xem Thêm</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Màn Hình</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Sim Thẻ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Phụ Kiện</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Liên Hệ</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Nhập thông tin cần tìm"
+                        aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Tìm Kiếm</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <!-- Đây là banner -->
+    <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+
+        <div class="carousel-inner">
+            <div class="carousel-item active text-center">
+                <img src="./banner1.png" class="d-block w-75 mx-auto" alt="banner1">
+            </div>
+            <div class="carousel-item text-center">
+                <img src="./banner2.png" class="d-block w-75 mx-auto" alt="banner2">
+            </div>
+            <div class="carousel-item text-center">
+                <img src="./banner3.png" class="d-block w-75 mx-auto" alt="banner3">
+            </div>
+        </div>
+        <!-- Nút điều hướng -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <!-- Đây là phần content -->
+    <div class="container">
+        <!-- Đây là thông báo -->
+        <div class="alert alert-primary text-center mt-2" role="alert">
+            <marquee behavior="scroll" direction="left" class="fw-bold">
+                Summer Sale in comming!!
+            </marquee>
+        </div>
+        <div class="row">
+            <div class="col-lg-5 col-md-12 ms-auto">
+                <div class="card">
+                    <div class="card-header">
+                        <h5 class="mt-2 text-center text-secondary">
+                            <b>Xem Bói Tình Yêu</b>
+                        </h5>
+                    </div>
+                    <div class="card-body">
+                        <label><b>Họ Và Tên Nam</b></label>
+                        <input placeholder="Nhập Họ Và Tên" class="form-control mt-2" type="text">
+                        <label><b>Năm Sinh Nam</b></label>
+                        <input placeholder="Nhập Năm Sinh" class="form-control mt-2" type="number">
+                        <label><b>Họ Và Tên Nữ</b></label>
+                        <input placeholder="Nhập Họ Và Tên" class="form-control mt-2" type="text">
+                        <label><b>Năm Sinh Nữ</b></label>
+                        <input placeholder="Nhập Năm Sinh" class="form-control mt-2" type="number">
+                    </div>
+                    <div class="card-footer text-end">
+                        <button class="btn btn-primary">Xem Bói</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-5 col-md-12 me-auto">
+                <div class="card">
+                    <div class="card-header">
+                        <h5 class="mt-2 text-center text-secondary">
+                            <b>Xem Tử Vi</b>
+                        </h5>
+                    </div>
+                    <div class="card-body">
+                        <label><b>Họ Và Tên</b></label>
+                        <input placeholder="Nhập Họ Và Tên" class="form-control mt-2" type="text">
+                        <label><b>Năm Sinh</b></label>
+                        <input placeholder="Nhập Năm Sinh" class="form-control mt-2" type="number">
+                    </div>
+                    <div class="card-footer text-center">
+                        <button class="btn btn-primary text-center">Xem Tử Vi</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- tạo ra 1 dòng -->
+        <div class="row mt-3">
+            <!-- Chia màn hình ra 4 phần lớn và 6 phần nhỏ -->
+            <div class="col-lg-4 col-md-6">
+                <div class="card">
+                    <div class="card-header">
+                        <h5 class="mt-2 text-center text-primary">
+                            <b>Iphone 16 PROMAX</b>
+                        </h5>
+                    </div>
+                    <div class="card-body text-center d-flex flex-column align-items-center">
+                        <img src="https://cdn.tgdd.vn/Products/Images/42/329149/iphone-16-pro-max-sa-mac-thumb-1-600x600.jpg" alt="iphone" class="img-fluid">
+                        <b class="ms-3 mt-2">29.900.000d</b>  <!-- Thêm margin-top (mt-2) để tạo khoảng cách nếu cần -->
+                    </div>                    
+                    <div class="card-footer text-center">
+                        <button class="btn btn-success">Thêm</button>
+                        <button class="btn btn-danger ms-1">Xoá</button>
+                    </div>
+                </div>                
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="card">
+                    <div class="card-header">
+                        <h5 class="mt-2 text-center text-primary">
+                            <b>Iphone 16 PROMAX</b>
+                        </h5>
+                    </div>
+                    <div class="card-body text-center d-flex flex-column align-items-center">
+                        <img src="https://cdn.tgdd.vn/Products/Images/42/329149/iphone-16-pro-max-sa-mac-thumb-1-600x600.jpg" alt="iphone" class="img-fluid">
+                        <b class="ms-3 mt-2">29.900.000d</b>  <!-- Thêm margin-top (mt-2) để tạo khoảng cách nếu cần -->
+                    </div>                    
+                    <div class="card-footer text-center">
+                        <button class="btn btn-success">Thêm</button>
+                        <button class="btn btn-danger ms-1">Xoá</button>
+                    </div>
+                </div>                
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="card">
+                    <div class="card-header">
+                        <h5 class="mt-2 text-center text-primary">
+                            <b>Iphone 16 PROMAX</b>
+                        </h5>
+                    </div>
+                    <div class="card-body text-center d-flex flex-column align-items-center">
+                        <img src="https://cdn.tgdd.vn/Products/Images/42/329149/iphone-16-pro-max-sa-mac-thumb-1-600x600.jpg" alt="iphone" class="img-fluid">
+                        <b class="ms-3 mt-2">29.900.000d</b>  <!-- Thêm margin-top (mt-2) để tạo khoảng cách nếu cần -->
+                    </div>                    
+                    <div class="card-footer text-center">
+                        <button class="btn btn-success">Thêm</button>
+                        <button class="btn btn-danger ms-1">Xoá</button>
+                    </div>
+                </div>                
+            </div>
+        </div>
+        <div class="row mt-3">
+            <!-- Chia màn hình ra 4 phần lớn và 6 phần nhỏ -->
+            <div class="col-lg-4 col-md-6">
+                <div class="card">
+                    <div class="card-header">
+                        <h5 class="mt-2 text-center text-primary">
+                            <b>Iphone 16 PROMAX</b>
+                        </h5>
+                    </div>
+                    <div class="card-body text-center d-flex flex-column align-items-center">
+                        <img src="https://cdn.tgdd.vn/Products/Images/42/329149/iphone-16-pro-max-sa-mac-thumb-1-600x600.jpg" alt="iphone" class="img-fluid">
+                        <b class="ms-3 mt-2">29.900.000d</b>  <!-- Thêm margin-top (mt-2) để tạo khoảng cách nếu cần -->
+                    </div>                    
+                    <div class="card-footer text-center">
+                        <button class="btn btn-success">Thêm</button>
+                        <button class="btn btn-danger ms-1">Xoá</button>
+                    </div>
+                </div>                
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="card">
+                    <div class="card-header">
+                        <h5 class="mt-2 text-center text-primary">
+                            <b>Iphone 16 PROMAX</b>
+                        </h5>
+                    </div>
+                    <div class="card-body text-center d-flex flex-column align-items-center">
+                        <img src="https://cdn.tgdd.vn/Products/Images/42/329149/iphone-16-pro-max-sa-mac-thumb-1-600x600.jpg" alt="iphone" class="img-fluid">
+                        <b class="ms-3 mt-2">29.900.000d</b>  <!-- Thêm margin-top (mt-2) để tạo khoảng cách nếu cần -->
+                    </div>                    
+                    <div class="card-footer text-center">
+                        <button class="btn btn-success">Thêm</button>
+                        <button class="btn btn-danger ms-1">Xoá</button>
+                    </div>
+                </div>                
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="card">
+                    <div class="card-header">
+                        <h5 class="mt-2 text-center text-primary">
+                            <b>Iphone 16 PROMAX</b>
+                        </h5>
+                    </div>
+                    <div class="card-body text-center d-flex flex-column align-items-center">
+                        <img src="https://cdn.tgdd.vn/Products/Images/42/329149/iphone-16-pro-max-sa-mac-thumb-1-600x600.jpg" alt="iphone" class="img-fluid">
+                        <b class="ms-3 mt-2">29.900.000d</b>  <!-- Thêm margin-top (mt-2) để tạo khoảng cách nếu cần -->
+                    </div>                    
+                    <div class="card-footer text-center">
+                        <button class="btn btn-success">Thêm</button>
+                        <button class="btn btn-danger ms-1">Xoá</button>
+                    </div>
+                </div>                
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
